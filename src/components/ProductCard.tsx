@@ -1,7 +1,7 @@
 import { Product } from "@prisma/client"
 import Image from "next/image";
 import Link from "next/link";
-import { PriceTag } from "./PriceTag";
+import PriceTag from "./PriceTag";
 import AddToCartButton from "@/app/products/[id]/AddToCartButton";
 import { incrementProductQuantity } from "@/app/products/[id]/actions";
 

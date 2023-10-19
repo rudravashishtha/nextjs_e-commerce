@@ -1,6 +1,6 @@
 "use client";
 
-import { PriceTag } from "@/components/PriceTag";
+import PriceTag from "@/components/PriceTag";
 import { CartItemWithProduct } from "@/lib/db/cart";
 import { formatPrice } from "@/lib/format";
 import Image from "next/image";
